@@ -2,12 +2,6 @@
 	margin:0;
 	padding:0;
 }
-header{
-	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(images/bkd-img.jpg);
-	height:100vh;
-	background-size:cover;
-	background-position:center;
-}
 .nav{
 	float:right;
 	list-style:none;
@@ -47,4 +41,20 @@ p{
 	margin-top:280px;
 	width:100%;
 	position:absolute;
+}
+.photo-center{
+	float:center;
+	margin-left:200px;
+	margin-top:20px;
+}
+video {
+margin-top:40px;
+margin-left: 160px;
+}
+h1{
+	color:#800000;
+	font-size:40px;
+	text-align:left;
+	margin-top:30px;
+	margin-left:50px;
 }
