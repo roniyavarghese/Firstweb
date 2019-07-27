@@ -1,0 +1,68 @@
+<!doctype>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Contact</title>
+<link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<style>
+
+	html{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(images/bkd2-img.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+}
+	.form{
+	position:leftwards;
+	background-color:#F8F8FF;
+	max-width:300px;
+	margin:80px ;
+	padding:50px;
+	text-align:left;	
+}
+	.form button{
+	text-align:center;
+	color:white;
+	width:230px;
+	padding:5px;
+	background-color:#32CD32;
+}
+	.form button:hover{
+	background-color:#CD5C5C;
+}
+	
+
+</style>
+</head>
+<body>
+	<header>
+		<div class="row">
+		<ul class="nav">
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="med.html">MEDITATION</a></li>
+			<li><a href="res.html">RESOURCES</a></li>
+			<li><a href="cont.html">CONTACT</a></li>
+		</ul>
+		</div>
+	</header>
+		<h1>CONTACT US</h1>
+			<div class="form">
+			<form action="cont.php" method="post">
+				<br/><br/>
+				Name:
+				<input type="text" name="name" placeholder="Enter Your Name" required/>
+				<br/><br/>
+				Email:
+				<input type="email" name="email" placeholder="Enter Your Email" required/>
+				<br/><br/>
+				Message:
+				<textarea name="message" id="message" cols="30" rows="5"></textarea>
+				<br/><br/>
+				<button>SUBMIT</button>
+			</form>
+			</div>
+		</div>
+		
+</body>
+</html>
